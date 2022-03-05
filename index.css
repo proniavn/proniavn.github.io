@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin: 0;
+}
+.textghinhat{
+	color: #525252;
+}
+.textghidam{
+	color:#212529;
+}
+.textxanh{
+	color: #ABD373
+}
+.fontfamily{
+	font-family: 'Rubik', sans-serif;
+}
+#header .topheader{
+	background-color: #ABD373;
+}
+#header .content button{
+	color: white;
+}
+#header .logoheader .left i{
+	font-size: 40px;
+	color: #ABD373;
+}
+#header .logoheader .right i{
+	font-size: 20px;
+	color: #525252;
+	padding-left: 20px
+}
+#header .logoheader .right i:hover{
+	color: #ABD373;
+	transition: color 0.2s;
+	cursor: pointer;
+}
+#header .banner{
+	background-image: url("././img/bg banner top.webp")
+}
+#header .banner h1{
+	font-size: 100px;
+	color: #212529;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400
+}
+#header .banner hr{
+	width: 30%;
+	border:1px solid #ABD373;
+	margin: 0;
+}
+#header .banner h5{
+	font-size: 25px;
+	color: #212529;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	padding-bottom: 50px;
+}
+#header .banner .left button{
+	border:none;
+	border-radius: 60px;
+	padding: 15px 25px;
+	background-color:#ABD373;
+}
+#header .banner .left button:hover{
+	background-color:#525252;
+}
+#categories .grid{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+	grid-gap: 20px
+}
+#categories button{
+	color: white;
+	border-radius: 30px;
+	background-color: #abd373;
+}
+#categories .indoor .content{
+	top: 75px;
+	left: 0; 
+  	right: 0; 
+  	margin-left: auto; 
+  	margin-right: auto; 
+}
+#categories .indoor{
+	grid-row: 1/3;
+}
+#categories .port .content{
+	top: 45px;
+	left: 40px;
+}
+#categories .hanging .content{
+	top: 45px;
+	left: 40px;
+}
+#categories button:hover{
+	background-color:#525252;
+}
+#ourproduct .title hr{
+	width: 15%;
+	border:1px solid #ABD373;
+	margin: 15px auto;
+}
+#ourproduct .sort button:hover{
+	border: 1px solid #ABD373;
+	background-color: transparent;
+	color: #ABD373;
+}
+#ourproduct .productgrid .item .info a:hover{
+	text-decoration: none;
+	color: #ABD373;
+}
+#ourproduct .productgrid .itemhover a{
+	color: #525252;
+	font-size: 20px;
+	padding: 10px;
+	background-color: white;
+	box-shadow: 0px 5px 10px #D3D3D3;
+}
+#ourproduct .productgrid .itemhover .itembutton{
+	bottom: 20px;
+	animation-duration: 0.5s;
+}
+#ourproduct .productgrid .itemhover{
+	display: none;
+}
+#ourproduct .productgrid .anh:hover .itemhover{
+	display: block;
+	cursor: pointer;
+}
+#ourproduct .productgrid .itemhover a:hover{
+	background-color: #ABD373;
+	color: white;
+}
+#footer{
+	background-image: url("././img/1-1920x465.webp");
+	margin-top: 20px;
+}
+#footer button:hover{
+	background-color: #ABD373;
+	color: white;
+	border:none;
+}
+#footer h6:hover{
+	cursor: pointer;
+	color: #ABD373;
+}
